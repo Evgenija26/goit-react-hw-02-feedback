@@ -1,16 +1,16 @@
+import { GlobalStyle } from './GlobalStyle';
+import Counter from './Feetback/Feetback';
+import Controls from './Feetback/Controls';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <h1> Please leave feedback </h1>
+      
+      <GlobalStyle />
+      <Counter />
+      <Controls />
+      <h1> Statistiks </h1>
+    </>
   );
 };
