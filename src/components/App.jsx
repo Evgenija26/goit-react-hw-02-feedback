@@ -1,16 +1,15 @@
 import { GlobalStyle } from './GlobalStyle';
-import Counter from './Feetback/Feetback';
-import Controls from './Feetback/Controls';
+import Counter from './Counter/Counter';
+// import FeedbackOptions  from './FeedbackOptions/FeedbackOptions';
 
 export const App = () => {
+    
   return (
     <>
-      <h1> Please leave feedback </h1>
-      
       <GlobalStyle />
       <Counter />
-      <Controls />
-      <h1> Statistiks </h1>
+      {/* <FeedbackOptions /> */}
+
     </>
   );
 };
