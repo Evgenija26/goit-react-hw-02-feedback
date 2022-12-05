@@ -8,7 +8,8 @@ export const App = () => {
     <>
       <GlobalStyle />
       <Counter />
-      {/* <FeedbackOptions /> */}
+      
+      
 
     </>
   );
