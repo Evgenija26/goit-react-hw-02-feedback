@@ -1,5 +1,5 @@
 import React from "react";
-// import css from './Statistics.module.css';
+
 
 export const Statistiks = ({ good, neutral, bad, total, positivFeedback, }) => {
     return (
